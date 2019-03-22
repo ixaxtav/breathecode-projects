@@ -7,7 +7,7 @@ import "../../styles/projects.css";
 export class Navbar extends React.Component {
 	render() {
 		return (
-			<nav className="navbar navbar-light bg-light">
+			<nav className="navbar navbar-light bg-light m-0">
 				<Link to="/projects">
 					<img
 						className="navbarImg"

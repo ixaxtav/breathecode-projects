@@ -1,4 +1,10 @@
 
+.lineSeparator{
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
 .navbarImg{
     max-height: 50px;
     padding: 10px;
@@ -6,7 +12,7 @@
     border-style: none;
 }
 
-.buttonFilter > div > button{
+.buttonFilter > button{
       font-size: 14px;
     line-height: 18px ;
     color: rgb(72, 72, 72) ;
@@ -15,7 +21,7 @@
     cursor: pointer ;
     padding-left: 12px ;
     padding-right: 12px ;
-    text-align: center ;
+    margin-right: 15px;
     background: none ;
     border-width: 1px ;
     border-style: solid ;
@@ -24,7 +30,24 @@
     text-decoration: none ;
 }
 
-.buttonProject > div > button{
+.buttonFilterMOB > div > button{
+      font-size: 14px;
+    line-height: 18px ;
+    color: rgb(72, 72, 72) ;
+
+    cursor: pointer ;
+    margin-bottom: 15px;
+    padding: 10px;  
+    background: none ;
+    border-width: 1px ;
+    border-style: solid ;
+    border-color: rgb(220, 224, 224) ;
+    border-radius: 4px ;
+   
+    width: 200px;
+}
+
+.buttonProject{
       font-size: 12px;
     line-height: 18px ;
     color: black ;
