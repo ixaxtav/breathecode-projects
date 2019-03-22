@@ -24,3 +24,17 @@
     text-decoration: none ;
 }
 
+.buttonProject > div > button{
+      font-size: 12px;
+    line-height: 18px ;
+    color: black ;
+    padding-top: 6px;
+    padding-bottom: 6px ;
+    cursor: pointer ;
+    padding-left: 12px ;
+    padding-right: 12px ;
+    text-align: center ;
+    background: none ;
+    border: none;
+    text-decoration: none ;
+}
