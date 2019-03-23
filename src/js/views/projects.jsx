@@ -68,7 +68,7 @@ export class Projects extends React.Component {
 									<button className="pl-1 buttonProject">
 										<i
 											className="fas fa-video"
-											style={{ color: "#722f37" }}
+											style={{ color: "#cc0000" }}
 										/>{" "}
 										With Video
 									</button>

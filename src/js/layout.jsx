@@ -4,6 +4,7 @@ import ScrollToTop from "./component/functional/scrollToTop.jsx";
 
 import { Home } from "./views/home.jsx";
 import { Projects } from "./views/projects.jsx";
+import { SingleProject } from "./views/single_project.jsx";
 import { Demo } from "./views/demo.jsx";
 import { Single } from "./views/single.jsx";
 import Store from "./store/appContext.jsx";
@@ -20,6 +21,11 @@ export class Layout extends React.Component {
 								exact
 								path="/projects"
 								component={Projects}
+							/>
+							<Route
+								exact
+								path="/projects1"
+								component={SingleProject}
 							/>
 							<Route render={() => <h1>Not found!</h1>} />
 						</Switch>
