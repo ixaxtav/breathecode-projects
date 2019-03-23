@@ -30,6 +30,24 @@
     text-decoration: none ;
 }
 
+
+.buttonsDifficulties{
+      font-size: 14px;
+    line-height: 18px ;
+    color: rgb(72, 72, 72) ;
+    padding-top: 6px;
+    padding-bottom: 6px ;
+    cursor: pointer ;
+    padding-left: 12px ;
+    padding-right: 12px ;
+    margin-right: 15px;
+    background: none ;
+    border-width: 1px ;
+    border-style: solid ;
+    border-color: rgb(220, 224, 224) ;
+    border-radius: 4px ;
+    text-decoration: none ;
+}
 .buttonFilterMOB > div > button{
       font-size: 14px;
     line-height: 18px ;

@@ -1,5 +1,11 @@
 import React from "react";
 import { Navbar } from "../component/navbar.jsx";
+import { TechnologiesBox } from "../component/technologies_box.jsx";
+import { DifficultiesBox } from "../component/difficulties_box.jsx";
+import { SkillsBox } from "../component/skills_box.jsx";
+import { Duration } from "../component/duration_box.jsx";
+import { WithVideoBox } from "../component/withvideo_box.jsx";
+import "../../styles/projects.css";
 
 export class Projects extends React.Component {
 	render() {
@@ -87,6 +93,8 @@ export class Projects extends React.Component {
 									</button>
 								</div>
 							</div>
+
+							<WithVideoBox />
 						</div>
 					</div>
 				</div>
