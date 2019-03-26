@@ -94,7 +94,6 @@ export class Projects extends React.Component {
 								</div>
 							</div>
 
-							<WithVideoBox />
 						</div>
 					</div>
 				</div>
