@@ -6,6 +6,7 @@ import { SkillsBox } from "../component/skills_box.jsx";
 import { Duration } from "../component/duration_box.jsx";
 import { WithVideoBox } from "../component/withvideo_box.jsx";
 import "../../styles/projects.css";
+import { Link } from "react-router-dom";
 
 export class Projects extends React.Component {
 	render() {
@@ -88,12 +89,13 @@ export class Projects extends React.Component {
 								</div>
 								<div className="col-auto">
 									{" "}
-									<button className="btn btn-primary btn-sm">
-										Read More
-									</button>
+									<Link to="/projects1">
+										<button className="btn btn-primary btn-sm">
+											Read More
+										</button>
+									</Link>
 								</div>
 							</div>
-
 						</div>
 					</div>
 				</div>
