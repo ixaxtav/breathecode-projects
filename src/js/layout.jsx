@@ -20,12 +20,12 @@ export class Layout extends React.Component {
 							<Route exact path="/" component={Projects} />
 							<Route
 								exact
-								path="/projects"
+								path="/breathecode-projects"
 								component={Projects}
 							/>
 							<Route
 								exact
-								path="/projects1"
+								path="/breathecode-projects/project1"
 								component={SingleProject}
 							/>
 							<Route render={() => <h1>Not found!</h1>} />
